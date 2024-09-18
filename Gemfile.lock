@@ -1,12 +1,85 @@
+GIT
+  remote: https://github.com/wingrunr21/kociemba.git
+  revision: 792a8b62ed12b62f284a71bf23fa4efbff5c7f0d
+  specs:
+    kociemba (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    ast (2.4.2)
+    attr_extras (7.1.0)
+    debug (1.9.2)
+      irb (~> 1.10)
+      reline (>= 0.3.8)
+    diff-lcs (1.5.1)
+    io-console (0.7.2)
+    irb (1.14.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
+    json (2.7.2)
+    language_server-protocol (3.17.0.3)
+    optimist (3.1.0)
+    parallel (1.26.3)
+    parser (3.3.5.0)
+      ast (~> 2.4.1)
+      racc
+    patience_diff (1.2.0)
+      optimist (~> 3.0)
+    psych (5.1.2)
+      stringio
+    racc (1.8.1)
+    rainbow (3.1.1)
+    rake (13.2.1)
+    rdoc (6.7.0)
+      psych (>= 4.0.0)
+    regexp_parser (2.9.2)
+    reline (0.5.10)
+      io-console (~> 0.5)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.1)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
+    rubocop (1.66.1)
+      json (~> 2.3)
+      language_server-protocol (>= 3.17.0)
+      parallel (~> 1.10)
+      parser (>= 3.3.0.2)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 2.4, < 3.0)
+      rubocop-ast (>= 1.32.2, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 3.0)
+    rubocop-ast (1.32.3)
+      parser (>= 3.3.1.0)
+    ruby-progressbar (1.13.0)
+    stringio (3.1.1)
+    super_diff (0.12.1)
+      attr_extras (>= 6.2.4)
+      diff-lcs
+      patience_diff
+    unicode-display_width (2.6.0)
 
 PLATFORMS
   arm64-darwin-23
   ruby
 
 DEPENDENCIES
+  debug
+  kociemba!
+  rake
+  rspec
+  rubocop
+  super_diff
 
 BUNDLED WITH
    2.5.18
